@@ -1,0 +1,22 @@
+@Author
+  Udaram Prajapat
+  IIT Jammu
+
+This Facial Expression Recogniser Project is  trained on data of Kaggle Competition. Link of competition is given below:-
+
+https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge
+
+The Project is trained with around 28,000 48X48 grayscale images of facial different expressions(Emotions) 
+ '''Emotions::
+        angry/
+        disgust/
+        fear/
+        happy/
+        neutral/
+        sad/
+        surprise/'''
+
+Convolutional Neural Network has been implemented, on Keras Deep Learning Framework.
+After training, the Model is tested with 7178 images. It was found that the model is predicting is predict 58.81% of Accuracy.
+The model has tested for the live images taken by me and came out accurate with with some error. 
+Accuracy might reach to above or around 80% we use Google Server Cloud for Running the model. Because our Computer CPU take around 2Hours to train and get this much accuracy.
